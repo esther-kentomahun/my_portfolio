@@ -49,13 +49,13 @@ function displayProjects(projectList) {
           const cardHTML = `
           <div class="bg-white border border-slate-200 rounded-xl p-6 space-y-4 shadow-sm overflow-hidden">
           <div class="w-full h-48 bg-slate-50 rounded-lg overflow-hidden border border-slate-100 mb-2">
-          <img src="${project.image}" alt="${project.title}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300"></div>
+          <img src="${project.image}" alt="${project.title}" class="w-full h-full object-[40%_50%]"></div>
           <span class="text-xs font-semibold uppercase text-slate-400">${project.category}</span>
           <h3 class="text-xl font-bold text-slate-900">${project.title}</h3>
           <p class="text-slate-600 text-sm">${project.description}</p>
           <div class="pt-2 flex gap-4 text-sm font-medium">
           <a href="${project.liveLink}" target="_blank" class="text-slate-900 hover:underline">Live Demo</a>
-          <a href="${project.repoLink}" target="_blank" class="text-slate-500 hover:underline">View Code</a>
+          <a href="${project.repoLink}" target="_blank" class="text-slate-600 hover:underline">View Code</a>
           </div>
           </div>
           `;
